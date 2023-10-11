@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/prunelle/IdeaProjects/EBA_NGOLONG_JEANNE_CHANTAL_20U2960/code/factory method first version/src/pattern_de_construction/factory/fabrique_abstraite/code",
+    "last_opened_file_path": "/home/prunelle/IdeaProjects/EBA_NGOLONG_JEANNE_CHANTAL_20U2960/code/design pattern/src/pattern_de_construction/Singleton/singleton1/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,15 +48,70 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pattern_de_construction/factory/fabrique_abstraite/code" />
-      <recent name="$PROJECT_DIR$/src/pattern_de_construction/factory/fabrique_abstraite/modele" />
-      <recent name="$PROJECT_DIR$/src/pattern_de_construction/factory/factory_method/modele" />
+      <recent name="$PROJECT_DIR$/src/pattern_de_construction/Singleton/singleton1/code" />
+      <recent name="$PROJECT_DIR$/src/pattern_de_construction/Singleton/arithmetique/code" />
+      <recent name="$PROJECT_DIR$/src/pattern_de_construction/abstract_factory/abstract_factory_family2/code" />
+      <recent name="$PROJECT_DIR$/src/pattern_de_construction/abstract_factory/abstract_factory_family1/code" />
+      <recent name="$PROJECT_DIR$/src/pattern_de_construction/abstract_factory/abstract_factory_family2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.TestSingleton">
+    <configuration name="Client" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.factory.factory_method.code.Client" />
       <module name="firstfactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_de_construction.factory.factory_method.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.factory.factory_method2.code.Main" />
+      <module name="firstfactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_de_construction.factory.factory_method2.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArithmetique" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.Singleton.arithmetique.code.TestArithmetique" />
+      <module name="firstfactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_de_construction.Singleton.arithmetique.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSingleton" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.Singleton.singleton1.code.TestSingleton" />
+      <module name="firstfactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern_de_construction.Singleton.singleton1.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,12 +124,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fabriqueAbstraite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.factory.fabrique_abstraite.code.fabriqueAbstraite" />
+    <configuration name="pattern_de_construction.factory.fabrique_abstraite2.code.Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern_de_construction.factory.fabrique_abstraite2.code.Main" />
       <module name="firstfactory" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern_de_construction.factory.fabrique_abstraite.code.*" />
+          <option name="PATTERN" value="pattern_de_construction.factory.fabrique_abstraite2.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,13 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.fabriqueAbstraite" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TestArithmetique" />
+      <item itemvalue="Application.TestSingleton" />
+      <item itemvalue="Application.pattern_de_construction.factory.fabrique_abstraite2.code.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSingleton" />
+        <item itemvalue="Application.TestArithmetique" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.fabriqueAbstraite" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.pattern_de_construction.factory.fabrique_abstraite2.code.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +170,7 @@
       <workItem from="1696977605098" duration="897000" />
       <workItem from="1696979449028" duration="923000" />
       <workItem from="1696981976920" duration="827000" />
+      <workItem from="1696982882460" duration="2091000" />
     </task>
     <servers />
   </component>
