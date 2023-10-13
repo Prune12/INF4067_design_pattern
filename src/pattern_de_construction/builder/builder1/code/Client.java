@@ -1,14 +1,24 @@
 package pattern_de_construction.builder.builder1.code;
 
+
+
 public class Client {
 
     public static void main(String args[]){
 
-        Directeur director = new Directeur();
-        MonteurPizzaPiquante builder= new MonteurPizzaPiquante();
-        director.construire(builder);
-        Pizza pizza= builder.getPizza();
-        System.out.println(pizza);
+    	 Directeur director = new Directeur();
+
+         MonteurPizzaPiquante builderPiquante = new MonteurPizzaPiquante();
+         director.construire(builderPiquante);
+         Pizza pizzaPiquante = builderPiquante.getPizza();
+         System.out.println("Pizza Piquante :");
+         pizzaPiquante.print();
+
+         MonteurPizzaReine builderReine = new MonteurPizzaReine();
+         director.construire(builderReine);
+         Pizza pizzaReine = builderReine.getPizza();
+         System.out.println("Pizza Reine :");
+         pizzaReine.print();
 
     }
 }
