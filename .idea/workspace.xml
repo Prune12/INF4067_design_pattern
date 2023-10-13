@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6da93fbf-281b-46e5-804e-657474818692" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../../AccueilPage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/Directeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/MonteurPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/MonteurPizzaPiquante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/MonteurPizzaReine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern_de_construction/builder/builder1/code/Pizza.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -180,7 +174,7 @@
       <workItem from="1696982882460" duration="3038000" />
       <workItem from="1697024297498" duration="14000" />
       <workItem from="1697192324870" duration="3550000" />
-      <workItem from="1697216027134" duration="3664000" />
+      <workItem from="1697216027134" duration="4798000" />
     </task>
     <servers />
   </component>
