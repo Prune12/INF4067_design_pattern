@@ -1,4 +1,4 @@
-package pattern_de_structuration.Composite;
+package pattern_de_structuration.Composite.code;
 
 public class Fichier extends Element {
     Fichier(String nom, String type) {
