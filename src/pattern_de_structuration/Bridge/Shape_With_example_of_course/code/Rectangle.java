@@ -1,4 +1,4 @@
-package pattern_de_structuration.Bridge.code;
+package pattern_de_structuration.Bridge.Shape_With_example_of_course.code;
 
 public class Rectangle extends Shape{
 Rectangle(Color color) {
