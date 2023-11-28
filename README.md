@@ -1,11 +1,20 @@
 # INF4067_design_pattern
-ce repository contient les differents codes sources des differents types de patrons de conception implémentés en JAVA. Il est organisé tel que nous avons un grand dossier "pattern_de_construction"
+ce repository contient les differents codes sources des differents types de patrons de conception et des differents types de patron de structuration implémentés en JAVA. Il est organisé tel que nous avons un grand dossier "pattern_de_construction" et "pattern_de_structuration"
 qui contient plusieurs sous dossier et chaque sous dossier contient le code sur de l'implementation d'un patron spécifique. Ces dossiers sont: 
+Pour le grand dossier "pattern_de_construction"
 
 - abstract_factory
 - factory
 - Singleton 
 - builder
+
+et pour le grand dossier "pattern_de_structuration" nous avons
+
+- Adapter
+- Bridge
+- Composite
+- Decorator
+
       
 **************************************************************************
 le dossier abstract_factory
