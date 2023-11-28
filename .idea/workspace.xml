@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da93fbf-281b-46e5-804e-657474818692" name="Changes" comment="" />
+    <list default="true" id="6da93fbf-281b-46e5-804e-657474818692" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/prunelle/eclipse-workspace/INF4067_design_pattern/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/prunelle/eclipse-workspace/INF4067_design_pattern/src/pattern_de_structuration&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -173,6 +175,8 @@
       <workItem from="1697216027134" duration="8533000" />
       <workItem from="1699302964177" duration="1162000" />
       <workItem from="1699477648469" duration="41000" />
+      <workItem from="1701200921667" duration="833000" />
+      <workItem from="1701204892011" duration="323000" />
     </task>
     <servers />
   </component>
