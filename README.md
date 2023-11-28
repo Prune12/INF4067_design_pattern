@@ -172,4 +172,207 @@ pour executer, lancer ce code, il y a deux methodes:
 
 - deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(builder1 ou builder2) dans le dossier src du projet java
                 vous venez de creer, supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient
+                dejà une classe avec une methode main() pour l'executer. Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+  **************************************************************************
+le dossier Adapter
+
+Le dossier abstract_factory contient l'implémentation du patron appelé "BUILDER", qui est un type de patron de construction et qui fonctionne comme suit:
+- Créer des objets complexes à partir d’autres objets sources.
+- Ces parties (objets sources) doivent (généralement) être créées
+suivant un ordre ou un algorithme spécifique.
+- Concrètement, assembler plusieurs objets pour les « monter » et
+n’en faire qu’un.
+- Son but est donc d’encapsuler la construction d’objets complexes de
+sorte qu’un client puisse créer ces objets sans se préoccuper des
+différents étapes nécessaires.
+- Chaque objet source peut servir à construire une partie de l’objet
+complexe( objet cible)
+
+Ce dossier est constitué de deux dossiers nommés:
+- builder1: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation de l'exemple du cours comprenant 6 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,Pizza. L'énoncé est le suivant:
+    Exemple: On souhaite fabriquer des pizza. On a 2 types de pizza : la pizza
+reine et le pizza piquante,
+Pour fabriquer une pizza : on prépare la pate, on prépare et ajoute
+une sauce et on prépare et ajoute une garniture.
+– pour la pizza reine, on utilise : pate = « croisée », sauce =
+« douce » et garniture = « jambon et champignon »
+– pour la pizza piquante, on utilise : pate = « feuilletée », sauce =
+« piquante » et garniture = « pepperoni + salami »
+On veut utiliser le design pattern Builder pour faciliter la fabrication
+des pizza.
+1. Proposer une modélisation sous forme de diagramme de classe
+2. Proposer le code source correspondant.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+- builder2: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation comprenant 7 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,MonteurPizzaTraditionnelle,Pizza.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+  ***********************************************************************************************************************************
+comment l'executer?,comment tester ce code?
+
+pour executer, lancer ce code, il y a deux methodes:
+
+- premiere methode: d'abord cloner le projet et executant les commandes `git init`, ensuite `git clone https://github.com/Prune12/INF4067_design_pattern.git`,dans votre
+                terminal. Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires
+                pour execution d'un code java. Si vous utiliser eclipse ou intellij, vous pourrez facilement executer le code car ces éditeurs ont les configurations du langages java déja inclut,
+                mais si vous utilisez visual studio code, il est nécessaire d'installer l'extension java.
+                étant donné que chaque dossier notamment (builder1,builder2) est codé de façon independante,dans le dossier "code" de chacun de ces dossiers
+                il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+- deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(builder1 ou builder2) dans le dossier src du projet java
+                vous venez de creer, supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient
+                dejà une classe avec une methode main() pour l'executer. Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+  **************************************************************************
+le dossier Bridge
+
+Le dossier abstract_factory contient l'implémentation du patron appelé "BUILDER", qui est un type de patron de construction et qui fonctionne comme suit:
+- Créer des objets complexes à partir d’autres objets sources.
+- Ces parties (objets sources) doivent (généralement) être créées
+suivant un ordre ou un algorithme spécifique.
+- Concrètement, assembler plusieurs objets pour les « monter » et
+n’en faire qu’un.
+- Son but est donc d’encapsuler la construction d’objets complexes de
+sorte qu’un client puisse créer ces objets sans se préoccuper des
+différents étapes nécessaires.
+- Chaque objet source peut servir à construire une partie de l’objet
+complexe( objet cible)
+
+Ce dossier est constitué de deux dossiers nommés:
+- builder1: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation de l'exemple du cours comprenant 6 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,Pizza. L'énoncé est le suivant:
+    Exemple: On souhaite fabriquer des pizza. On a 2 types de pizza : la pizza
+reine et le pizza piquante,
+Pour fabriquer une pizza : on prépare la pate, on prépare et ajoute
+une sauce et on prépare et ajoute une garniture.
+– pour la pizza reine, on utilise : pate = « croisée », sauce =
+« douce » et garniture = « jambon et champignon »
+– pour la pizza piquante, on utilise : pate = « feuilletée », sauce =
+« piquante » et garniture = « pepperoni + salami »
+On veut utiliser le design pattern Builder pour faciliter la fabrication
+des pizza.
+1. Proposer une modélisation sous forme de diagramme de classe
+2. Proposer le code source correspondant.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+- builder2: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation comprenant 7 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,MonteurPizzaTraditionnelle,Pizza.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+  ***********************************************************************************************************************************
+comment l'executer?,comment tester ce code?
+
+pour executer, lancer ce code, il y a deux methodes:
+
+- premiere methode: d'abord cloner le projet et executant les commandes `git init`, ensuite `git clone https://github.com/Prune12/INF4067_design_pattern.git`,dans votre
+                terminal. Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires
+                pour execution d'un code java. Si vous utiliser eclipse ou intellij, vous pourrez facilement executer le code car ces éditeurs ont les configurations du langages java déja inclut,
+                mais si vous utilisez visual studio code, il est nécessaire d'installer l'extension java.
+                étant donné que chaque dossier notamment (builder1,builder2) est codé de façon independante,dans le dossier "code" de chacun de ces dossiers
+                il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+- deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(builder1 ou builder2) dans le dossier src du projet java
+                vous venez de creer, supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient
                 dejà une classe avec une methode main() pour l'executer. Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé  
+
+**************************************************************************
+le dossier Composite
+
+Le dossier abstract_factory contient l'implémentation du patron appelé "BUILDER", qui est un type de patron de construction et qui fonctionne comme suit:
+- Créer des objets complexes à partir d’autres objets sources.
+- Ces parties (objets sources) doivent (généralement) être créées
+suivant un ordre ou un algorithme spécifique.
+- Concrètement, assembler plusieurs objets pour les « monter » et
+n’en faire qu’un.
+- Son but est donc d’encapsuler la construction d’objets complexes de
+sorte qu’un client puisse créer ces objets sans se préoccuper des
+différents étapes nécessaires.
+- Chaque objet source peut servir à construire une partie de l’objet
+complexe( objet cible)
+
+Ce dossier est constitué de deux dossiers nommés:
+- builder1: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation de l'exemple du cours comprenant 6 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,Pizza. L'énoncé est le suivant:
+    Exemple: On souhaite fabriquer des pizza. On a 2 types de pizza : la pizza
+reine et le pizza piquante,
+Pour fabriquer une pizza : on prépare la pate, on prépare et ajoute
+une sauce et on prépare et ajoute une garniture.
+– pour la pizza reine, on utilise : pate = « croisée », sauce =
+« douce » et garniture = « jambon et champignon »
+– pour la pizza piquante, on utilise : pate = « feuilletée », sauce =
+« piquante » et garniture = « pepperoni + salami »
+On veut utiliser le design pattern Builder pour faciliter la fabrication
+des pizza.
+1. Proposer une modélisation sous forme de diagramme de classe
+2. Proposer le code source correspondant.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+- builder2: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation comprenant 7 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,MonteurPizzaTraditionnelle,Pizza.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+  ***********************************************************************************************************************************
+comment l'executer?,comment tester ce code?
+
+pour executer, lancer ce code, il y a deux methodes:
+
+- premiere methode: d'abord cloner le projet et executant les commandes `git init`, ensuite `git clone https://github.com/Prune12/INF4067_design_pattern.git`,dans votre
+                terminal. Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires
+                pour execution d'un code java. Si vous utiliser eclipse ou intellij, vous pourrez facilement executer le code car ces éditeurs ont les configurations du langages java déja inclut,
+                mais si vous utilisez visual studio code, il est nécessaire d'installer l'extension java.
+                étant donné que chaque dossier notamment (builder1,builder2) est codé de façon independante,dans le dossier "code" de chacun de ces dossiers
+                il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+- deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(builder1 ou builder2) dans le dossier src du projet java
+                vous venez de creer, supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient
+                dejà une classe avec une methode main() pour l'executer. Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+  **************************************************************************
+le dossier Decorator
+
+Le dossier abstract_factory contient l'implémentation du patron appelé "BUILDER", qui est un type de patron de construction et qui fonctionne comme suit:
+- Créer des objets complexes à partir d’autres objets sources.
+- Ces parties (objets sources) doivent (généralement) être créées
+suivant un ordre ou un algorithme spécifique.
+- Concrètement, assembler plusieurs objets pour les « monter » et
+n’en faire qu’un.
+- Son but est donc d’encapsuler la construction d’objets complexes de
+sorte qu’un client puisse créer ces objets sans se préoccuper des
+différents étapes nécessaires.
+- Chaque objet source peut servir à construire une partie de l’objet
+complexe( objet cible)
+
+Ce dossier est constitué de deux dossiers nommés:
+- builder1: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation de l'exemple du cours comprenant 6 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,Pizza. L'énoncé est le suivant:
+    Exemple: On souhaite fabriquer des pizza. On a 2 types de pizza : la pizza
+reine et le pizza piquante,
+Pour fabriquer une pizza : on prépare la pate, on prépare et ajoute
+une sauce et on prépare et ajoute une garniture.
+– pour la pizza reine, on utilise : pate = « croisée », sauce =
+« douce » et garniture = « jambon et champignon »
+– pour la pizza piquante, on utilise : pate = « feuilletée », sauce =
+« piquante » et garniture = « pepperoni + salami »
+On veut utiliser le design pattern Builder pour faciliter la fabrication
+des pizza.
+1. Proposer une modélisation sous forme de diagramme de classe
+2. Proposer le code source correspondant.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+- builder2: qui contient deux autres dossiers nommés:
+  - code: qui contient le code source de l'implémentation comprenant 7 classes notamment client(contient le methode main() pour executer),Directeur,MonteurPizza,MonteurPizzaPiquante,MonteurPizzaReine,MonteurPizzaTraditionnelle,Pizza.
+  - modele: qui contient un fichier PDF comprenant le modèle générique du patron en question.
+  ***********************************************************************************************************************************
+comment l'executer?,comment tester ce code?
+
+pour executer, lancer ce code, il y a deux methodes:
+
+- premiere methode: d'abord cloner le projet et executant les commandes `git init`, ensuite `git clone https://github.com/Prune12/INF4067_design_pattern.git`,dans votre
+                terminal. Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires
+                pour execution d'un code java. Si vous utiliser eclipse ou intellij, vous pourrez facilement executer le code car ces éditeurs ont les configurations du langages java déja inclut,
+                mais si vous utilisez visual studio code, il est nécessaire d'installer l'extension java.
+                étant donné que chaque dossier notamment (builder1,builder2) est codé de façon independante,dans le dossier "code" de chacun de ces dossiers
+                il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé
+
+- deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(builder1 ou builder2) dans le dossier src du projet java
+                vous venez de creer, supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient
+                dejà une classe avec une methode main() pour l'executer. Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé  
+
+
+
